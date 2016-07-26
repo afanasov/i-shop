@@ -1,0 +1,16 @@
+#order-content h2{
+    font: bold 19px sans-serif;
+}
+#title{
+    font: bold 14px sans-serif;
+    color: black;
+    margin: 10px;
+}
+#process{
+    margin-left: 10px;
+}
+#step p{
+    margin: 10px;
+    font: 14px sans-serif;
+}
+

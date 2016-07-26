@@ -1,0 +1,2053 @@
+/*Основной блок общее тело документа*/
+#block-body{
+    width: 1035px;
+    height: auto;
+    margin: 0 auto;
+}
+/*Основной верхний блок */
+#block-header{
+    width: 1035px;
+    height: 220px;
+}
+#block-right{
+    width: 220px;
+    height: auto;
+    float: right;
+}
+
+/*Блок контент*/
+#block-content{
+    width: 800px;
+    height: auto;
+}
+
+/*верх с навигацией блок*/
+#heder-top-block{
+    width: 1035px;
+    height: 35px;
+}
+
+
+/*нижний блок футер*/
+#block-footer{
+    width: 1035px;
+    height: 160px;
+    margin-top: 10px;
+    clear: both;
+}
+/*  список навигации верхние кнопки: ваш город, о нас,  магазин контакты.*/
+#header-top-menu li, ul{
+    list-style-type: none;
+}
+#heder-top-menu li{
+    font: 15px sans-serif;
+    float: left;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid gray;   
+}
+#heder-top-menu a{
+    font: 15px sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+
+#heder-top-menu a:hover{
+    color: red;
+    border-bottom: 1px dashed red;
+}
+
+#heder-top-menu span{
+    color: red;
+    border-bottom: 1px dashed red;
+}
+/* верх. кнопки вход и рег*/
+#reg-auth-title{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    }
+    
+#reg-auth-title > a#active-button{
+    background: url(/images/auth-butt-bg-click.png)
+    }    
+    
+#reg-auth-title a.top-auth{
+    font: bold 13px sans-serif;
+    text-decoration: none;
+    background: url(/images/auth-butt-bg.png);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+#reg-auth-title a.top-auth:hover{
+    background: url(/images/auth-butt-bg-move.png);
+}
+
+#reg-auth-title a {
+    font: 14px sans-serif;
+    text-decoration: none;
+    color: red;
+    margin-left: 10px;
+}
+
+#reg-auth-title a:hover {
+    border-bottom: none;
+}
+
+/*верхняя линия хедер*/
+#top-line{
+    background: url(/images/line.png);
+    width: 1035px;
+    height: 5px;
+}
+
+
+/*логотип хедер*/
+#img-logo{
+    margin-top: 12px;
+    position: absolute;
+}
+
+/* инфо блок в хедере с контактами*/
+#personal-info{
+    width: 300px;
+    margin-left: 730px;
+    margin-top: 7px;
+}
+
+#personal-info p{
+    font: 15px sans-serif;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+#personal-info p{
+    font: 15px sans-serif;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-right: 45px;
+
+}#personal-info h3{
+    font: bold 20px verdana ;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 45px;
+}
+
+#personal-info img{
+    margin-left: 265px;
+    margin-top: -45px;
+    position: absolute;
+}
+
+/*Поиск блок в хедер*/
+#block-search{
+ width: 345px;
+ height: auto;
+ margin-left: 700px;
+}
+
+/*Картинка в поиск блок в хедер*/
+#block-search span{
+ width: 13px;
+ height: 13px;
+ background: url(/images/icon-search.png);
+ position: absolute;
+ margin-top: 32px;
+ margin-left: 6px;
+}
+
+/*Поиск поле ввода*/
+#block-search input#input-search{
+width: 270px;
+height: 30px;
+border: 1px solid cyan;
+margin-top: 23px;
+font: 14px sans-serif;
+padding-left: 22px;
+}
+
+/*кнопка поиска*/
+#button-search{
+    width: 58px;
+    height: 31px;
+    border: 1px solid gainsboro;
+    background: url(/images/grd-button-search-norm.png);
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+#button-search:hover{
+    background: url(/images/grd-button-search-hover.png);
+}
+
+/*Картинка в поиск блок в хедер*/
+#block-search{
+ width: 345px;
+ height: auto;
+ margin-left: 700px;
+ z-index: 999;
+ position: absolute;
+}
+
+/*Выпадающие меню в блоке поиск*/
+#result-search{
+display: none;
+border-left: 1px solid #E1E1E2;
+border-right: 1px solid #E1E1E2;
+border-bottom: 1px solid #E1E1E2;
+width: 267px;
+height: auto;
+background-color: white;
+}
+#result-search a{
+font: 14px sans-serif;
+text-decoration: none;
+padding: 5px;
+display: block;
+color: black;
+}
+#result-search a:hover{
+background-color: #F1F2F2;
+}
+
+/*Верхние меню*/
+#top-menu{
+    width: 1033px;
+    height: 45px;
+}
+
+#top-menu li{
+    float: left;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+
+#top-menu a{
+    font: 15px sans-serif;
+    color: blue;
+    margin-left: 4px;
+    margin-right: 3px;
+    text-decoration: none;
+}
+
+#top-menu a:hover{
+    color: red;
+}
+
+#top-menu img{
+   float: left;
+   margin-top: -7px;
+}
+
+/*корзина*/
+#block-basket{
+    margin-top: 0px;
+    padding-top: 7px;
+    margin-right: -3px;
+}
+
+#block-basket span{
+  color: black;  
+}
+
+/*корзина ссылка*/
+#block-basket a{
+  font: bold 15px sans-serif;
+  text-decoration: none;
+  margin-left: 40px; 
+  color: black;
+}
+
+/*корзина ссылка при навидении*/
+#block-basket a:hover{
+  border-bottom: none;
+  color: red;
+}
+
+/*корзина ссылка*/
+#block-basket img{
+   position: absolute;
+   margin-top: -3px;
+}
+
+#block-basket span{
+    color: blue;
+}
+
+/*линия меню*/
+#nav-line{
+   background: url(/images/line.png);
+   width: 1035px;
+   height: 5px;
+   margin-top: -3px;
+}
+
+/*Правый блок категорий */
+#block-category{
+    width: 220px;
+    height: auto;
+}
+
+
+/*Шапка бокового меню */
+.header-title{
+    width: 210px;
+    font: 14px sans-serif;
+    color: white;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: url(/images/grd-title.png);
+    border-radius: 5px 5px 0px 0px;
+}
+
+/*Правый блок категорий */
+#block-category > ul{
+    margin-top: -5px;
+}
+
+
+#block-category  > ul > li{
+    border-bottom: 1px solid #EFEFEF;;
+}
+
+
+#block-category  > ul > li  > a{
+    
+    font: 15px sans-serif;
+    padding-top: 6px;
+    padding-left: 30px;
+    padding-bottom: 6px;
+    display: block;
+    cursor: pointer;
+}
+
+#block-category  > ul > li  > a:hover{
+background-color: #EEEEEE;
+}
+
+#block-category  > ul > li  > a.active{
+background-color: #EEEEEE;
+}
+
+
+/*Правый блок категория картинка телефон*/
+#mobile-images{
+    position: absolute;
+    margin-left: -26px;
+    margin-top: -3px;
+}
+
+/*Правый блок категория картинка ноутбук*/
+#book-images{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -2px;
+}
+
+/*Правый блок категория картинка планшет*/
+#table-images{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -2px;
+}
+
+/*Правый блок категории выпадающие меню*/
+.category-section{
+    margin-left: 25px;
+    margin-bottom: 5px;
+    display: none;
+}
+.category-section li{
+    margin-top: 3px;
+    padding-left: -30px;
+}
+
+.category-section a{
+    font: 15px sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+/* Поиск по параметрам */
+#block-parameter{
+    margin-top: 10px;
+    width: 220px;
+    height: auto;
+}
+
+.title-filter{
+    font: bold 14px sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* Стоимость */
+#block-input-price li{
+    float: left;
+    margin-left: 10px;
+}
+
+#block-input-price input{
+    width: 45px;
+    height: 20px;
+    font: 14px sans-serif;
+    border: 1px solid aqua;
+    padding-left: 3px;
+}
+
+#block-input-price p{
+    margin-left: -6px;
+    margin-top: 0px;
+    padding-top: 2px;
+    font: 14px sans-serif;
+    float: left;
+}
+
+/* Трек бар Полоска прокрутки на джей квери */
+#blocktrackbar{
+    width: 220px;
+    height: 35px;
+    margin-top: 20px;
+    padding-top: 5px;
+    clear: both;
+}
+
+/* Трек бар Полоска прокрутки на джей квери */
+.checkbox-brand li{
+    font: 14px sans-serif;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.checkbox-brand input{
+    margin-right: 8px;
+}
+
+/* Кнопка поиска в боковом меню */
+#button-param-search{
+    width: 81px;
+    height: 27px;
+    background: url(/images/button-search-norm.png);
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;  
+}
+
+#button-param-search:hover{
+    background: url(/images/button-search-hover.png);   
+}
+
+#button-param-search active{
+    background: url(/images/button-search-active.png);   
+}
+
+/* Блок новостей в боковом меню */
+#block-news{
+    
+    width: 220px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#newsticker{
+    width: 220px;
+    border-top: 1px solid #DDDDDD;
+}
+
+#newsticker p{
+    font: 14px sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#newsticker li{
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#newsticker a{
+    color: #EF662B;
+    font: bold 14px sans-serif;
+    text-decoration: none;
+}
+
+#newsticker a:hover{
+    text-decoration: underline;
+}
+
+#newsticker span{
+    font: 13px sans-serif;
+    padding-bottom: 5px;
+    color: #636363;
+    display: block;
+}
+
+#news-prev{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-left: 130px;
+}
+
+#news-next{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer; 
+}
+
+/* Блок номера телефона в футер */
+#footer-phone{
+    width: 270px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#footer-phone h4{
+    font: bold 16px sans-serif;
+    margin: 0;
+}
+#footer-phone h3{
+    font: bold 23px sans-serif;
+    margin: 5px 0;
+}
+#footer-phone p{
+    font: 15px sans-serif;
+    margin: 5px 0;
+}
+.footer-list{
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+}
+.footer-list li{
+    margin-top: 5px;
+}
+.footer-list p{
+    font: bold 14px sans-serif;
+    margin-bottom: 10px;
+    color: #641B74;
+}
+.footer-list a{
+    font:14px sans-serif;
+    text-decoration: none;
+    color: #7B7B7B;
+}
+.footer-list a:hover{
+    text-decoration: underline;
+}
+
+/* Нижняя линия */
+#bottom-line{
+    background: url(/images/line.png);
+    width: 1035px;
+    height: 5px;
+}
+
+/* Блок верхнее меню в контенте */
+#nav-breadcrumbs{
+    margin-top: -5px;
+}
+
+#nav-breadcrumbs a{
+    font: 13px sans-serif;
+    color: blue;
+}
+
+#nav-breadcrumbs a:hover{
+    color: red;
+}
+
+#nav-breadcrumbs span{
+    color: graytext;
+    font: 14px sans-serif;
+}
+
+/* Блок верхнее меню в контенте*/
+#block-sorting{
+    height: 60px;
+    border-bottom: 1px solid aqua;
+}
+
+
+/* Блок верхнее меню в контенте */
+#options-list {
+    margin-left: 10px;
+}
+
+#options-list > li{
+    float: left;
+    margin-left: 10px;
+    font: 14px sans-serif;
+}
+
+#options-list img{
+    margin-top: -4px;
+    cursor: pointer;
+}
+
+
+/* Блок сортировки в контенте*/
+#select-sort{
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Выпадающий список блок сортировки в контенте*/
+#sorting-list{
+    border: 1px solid graytext;
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    background-color: white;
+    padding-top: 5px;
+    display: none;
+}
+
+#sorting-list li{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+#sorting-list a{
+    font: 15px sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#sorting-list a:hover{
+    text-decoration: underline;
+}
+
+/* Блок вывода товара на главной странице*/
+#block-tovar-grid > li{    
+    width: 378px;
+    height: 230px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+/* Название Блок вывода товара на главной странице*/
+.style-title-grid{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.style-title-grid a{
+    font: bold 15px sans-serif;
+    color: blue;
+    text-decoration: underline;
+}
+
+.style-title-grid a:hover{
+    color: red;
+    cursor: pointer;  
+}
+
+/* Картинка блока вывода товара на главной странице в виде блока таблиц*/
+.block-images-grid{
+   width: auto;
+   height: 230px;
+   float: left;
+   margin-right: 15px;
+}
+
+/* значки просмотра и отзывов блока вывода товара на главной странице в виде блока таблиц*/
+.reviews-and-counts-grid{
+    height: 20px;
+    margin-top: 5px;
+}
+.reviews-and-counts-grid > li{
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.reviews-and-counts-grid li > p{
+    margin-left: 25px;
+    font: 13px sans-serif;
+    margin-top: -1px;
+    margin-bottom: 0px;
+}
+
+.reviews-and-counts-grid li > img{
+    position: absolute;
+}
+
+
+/* цена блока вывода товара на главной странице в виде блока таблиц*/
+.style-price-grid{
+   font: 16px sans-serif;
+   margin-top: 7px;
+}
+
+.style-price-grid strong{
+   font: 23px sans-serif;
+   color: grey;
+}
+
+/* кнопка добавить в корзину блока вывода товара на главной странице в виде блока таблиц*/
+.add-cart-style-grid{
+    width: 48px;
+    height: 25px;
+    display: block;
+    cursor: pointer;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    background: url(/images/add-cart-norm.png)
+}
+
+.add-cart-style-grid:hover{
+    background: url(/images/add-cart-hover.png)
+}
+
+.add-cart-style-grid:active{
+    background: url(/images/add-cart-active.png)
+}
+
+/* краткое описание блока вывода товара на главной странице в виде блока таблиц*/
+.mini-features{
+    font: 14px/18px sans-serif;
+    margin-top: 10px;
+}
+
+/* Картинка блока вывода товара на главной странице в виде списка*/
+.block-images-list{
+    float: left;
+    margin-right: 15px;
+    min-height: 160px;
+    height: auto;
+}
+
+/* Общий блока вывода товара на главной странице в виде списка*/
+
+#block-tovar-list{
+    display: none;
+}
+
+#block-tovar-list > li{
+    border-bottom: 1px solid aqua;
+    min-height: 160px;
+    height: auto;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+
+/*значки просмотры и коментарии вывода товара на главной странице в виде списка*/
+.reviews-and-counts-list{
+    position: absolute;
+    margin-left: 670px;    
+}
+
+.reviews-and-counts-list > li{
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.reviews-and-counts-list > li > img{
+    position: absolute;
+}
+
+.reviews-and-counts-list li > p{
+    margin-left: 25px;
+    font: 13px sans-serif;
+    margin-top: -1px;
+    margin-bottom: 0px;
+}
+
+/*Название товара на главной странице в виде списка*/
+.style-title-list{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.style-title-list{
+    font: bold 15px sans-serif;
+    color: blue;
+    text-decoration: underline;
+}
+
+.style-title-list a:hover{
+    color: red;
+    cursor: pointer;  
+}
+
+/* кнопка добавить в корзину блока вывода товара на главной странице в виде списка*/
+.add-cart-style-list{
+    width: 48px;
+    height: 25px;
+    display: block;
+    cursor: pointer;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    background: url(/images/add-cart-norm.png)
+}
+
+.add-cart-style-list:hover{
+    background: url(/images/add-cart-hover.png)
+}
+
+.add-cart-style-list:active{
+    background: url(/images/add-cart-active.png)
+}
+
+/*Цена в блоке вывода товара на главной странице в виде списка*/
+.style-price-list{
+    font: 15px sans-serif;
+    margin-top: 10px;
+}
+
+.style-price-list > strong{
+    font: 20px sans-serif;
+    color: grey;
+}
+
+/* Блоке с мини описанием товара на главной странице в виде списка*/
+.style-text-list{
+    font: 15px sans-serif;
+    margin: 0;
+}
+
+/* Блоке с мини описанием товара на главной странице в виде списка*/
+.pstrnav{
+    height: 30px;
+    clear: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pstrnav li{
+    height: 26px;
+    width: 26px;
+    margin-left: 7px;
+    margin-top: 3px;
+    float: left;   
+}
+
+.pstrnav a{
+    display: block;
+    text-decoration: none;
+    font: bold 14px sans-serif;
+    text-align: center;
+    color: black;
+    background: url(/images/nav-block-norm.png);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pstrnav a:hover{
+    background: url(/images/nav-block-hover.png);
+}
+
+.pstrnav a:active{
+    background: url(/images/nav-block-active.png);
+    color: white; 
+}
+
+.pstrnav a.pstr-active{
+    background: url(/images/nav-block-active.png);
+    color: white; 
+}
+
+.pstrnav p.nav-point{
+    text-align: center;
+    font: bold 14px sans-serif;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+/*Регистрация*/
+.h2-title{
+    font: 25px sans-serif;
+    border-bottom: 1px solid aqua;
+    padding-bottom: 3px;
+}
+
+/*Блок формы регистрации*/
+#block-form-refistration{
+    height: 450px;    
+}
+/* Списки блок формы регистрации*/
+#form-registration{
+    margin-top: 30px;
+}
+
+#form-registration li{
+    margin-top: 10px;
+}
+
+#form-registration >li>label{
+    position: absolute;
+    margin-top: 7px;
+    font: 16px sans-serif;
+}
+
+.star{
+    font: 16px sans-serif;
+    color: red;
+    position: absolute;
+    margin-left: 188px;
+    margin-top: 10px;
+}
+
+/* Свойство полей формы регистрации*/
+#form-registration >li>input{
+    height: 30px;
+    width: 320px;
+    font: 17px sans-serif; 
+    margin-left: 200px;
+    padding-left: 5px;
+    color: black;
+    border-left: 1px solid graytext;
+    border-top: 1px solid graytext;
+    border-bottom: 1px solid aqua;
+    border-right: 1px solid aqua;
+}
+
+/* Свойство полей формы регистрации*/
+#form-registration >li>input#reg_login,
+#form-registration >li>input#reg_pass{
+    height: 30px;
+    width: 200px;
+    font: 17px sans-serif; 
+    margin-left: 200px;
+    padding-left: 5px;
+    color: black;
+    border-left: 1px solid graytext;
+    border-top: 1px solid graytext;
+    border-bottom: 1px solid aqua;
+    border-right: 1px solid aqua;
+}
+
+
+#form-registration > li > input:focus,
+#form-registration > li > input#reg_login:focus,
+#form-registration > li > input#reg_pass:focus,
+#block-captcha > input#reg_captcha:focus{
+ border: 1px solid aqua;
+}
+
+/* Сгенерировать формы регистрации*/
+#genpass{
+    font: bold 13px sans-serif;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#genpass:hover{
+    text-decoration: none;
+}
+
+/* Блок капча формы регистрации*/
+#block-captcha{
+    position: absolute;
+    margin-left: 200px;
+    height: 70px;
+}
+
+/* Свойство полей формы регистрации*/
+#block-captcha >input#reg_captcha{
+    height: 30px;
+    width: 100px;
+    font: 19px sans-serif; 
+    margin-top: 8px;
+    margin-left: 15px;
+    padding-left: 5px;
+    color: black;
+    border-left: 1px solid graytext;
+    border-top: 1px solid graytext;
+    border-bottom: 1px solid aqua;
+    border-right: 1px solid aqua;
+}
+
+#block-captcha img{
+    float: left;
+}
+
+#block-captcha p{
+    margin-top: 0px;
+    font: bold 13px sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    clear: both;
+}
+
+#block-captcha:hover{
+    text-decoration: none;   
+}
+
+/* Кнопка формы регистрации*/
+#form_submit{
+    background: url(/images/grd_reg_button.png);
+    border: 1px solid #E4E4E4;
+    font: bold 13px sans-serif;
+    border-radius:5px ; 
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 33px;
+    cursor: pointer;
+    margin-top: -15px;
+    margin-right: 15px;  
+}
+
+#form_submit:active{
+    background: url(/images/grd_reg_button_vert.png);  
+}
+
+/* Блок с авторизацией*/
+#block-top-auth{
+    border: 1px solid aqua;
+    width: 270px;
+    height: auto;
+    margin-left: 719px;
+    margin-top: 40px;
+    background-color: white;
+    position: absolute;
+    z-index: 9999; 
+    box-shadow: 0 0 15px #DBDBDB;
+    display: none;
+    
+}
+/*Уголок Блок с авторизацией*/
+.corner{
+    background: url(/images/bulleticon.png);
+    height: 10px;
+    width: 19px;
+    margin-left: 175px;
+    margin-top: -9px;
+}
+
+#input-email-pass h3{
+    font: 15px sans-serif;
+    margin: 10px;
+}
+
+#message-auth{
+    font: 13px sans-serif;
+    padding: 10px;
+    background-color: pink;
+    color: red;
+    display: none;
+}
+
+#input-email-pass > li{
+    margin-top: 7px;
+}
+
+#input-email-pass input#auth_login{
+    width: 250px;
+    height: 25px;
+    font: 15px sans-serif;
+    border: 1px solid #DBDBDB;
+    padding-left: 5px;
+    margin-left: 10px;
+    
+}
+
+#input-email-pass input#auth_pass{
+    width: 250px;
+    height: 25px;
+    font: 15px sans-serif;
+    border: 1px solid #DBDBDB;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+
+
+#input-email-pass span{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 9px;
+    position: absolute;
+    margin-left: -25px;
+}
+#list-auth{
+    margin-top: 12px;
+}
+
+#list-auth li{
+    margin-top: 5px;
+    margin-left: 10px;
+    font: 14px sans-serif;
+}
+
+#list-auth a{
+    color: black;
+    text-decoration: none;
+    margin-left: 3px;
+    border-bottom: 1px dashed black;
+}
+
+#list-auth a:hover{
+    border-bottom: none;
+}
+
+#button-auth a{
+    margin-right: 10px;
+    cursor: pointer;
+    background: url(/images/button-grd.png) repeat-x;
+    font:bold 13px sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius:5px ; 
+}
+
+#button-auth a:hover{
+    background: url(/images/button-grd-hover.png) repeat-x;
+}
+#button-auth a:active{
+    background: url(/images/button-grd-active.png) repeat-x;
+}
+
+.auth-loading{
+    margin-right: 30px;
+    margin-top: 20px;
+    display: none;
+    
+}
+
+/*Плагин валидации регистрация*/
+.error{
+    font: italic 14px sans-serif;
+    color: red;
+    margin-left: 5px;
+}
+
+/*Строка преветствия*/
+#auth-user-info{
+    font: bold 14px sans-serif;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+
+#auth-user-info:hover{
+    color: red;
+    cursor: pointer;
+}  
+
+#auth-user-info  > img{
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -30px;
+    float: right;
+}
+/*Востановления пароля*/
+#block-remind{
+    display: none;
+}
+#block-remind  h3{
+    font:15px sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#block-remind  input{
+    width: 250px;
+    height: 25px;
+    border: 1px solid #DBDBDB;
+    font:15px sans-serif; 
+    padding-left: 5px;
+    padding-right: 30px;
+}
+
+#block-remind  p#prev-auth{
+    font:bold 13px sans-serif;
+    text-decoration: underline;
+    width: 10px; 
+    margin-left: 10px;
+    margin-top: -32px;
+    cursor: pointer;
+    position: absolute;  
+}
+#block-remind  p#prev-auth:hover{
+    text-decoration: none;
+}
+.message-remind-error{
+    display: none;
+    font:bold 12px sans-serif;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+    background-color: #FDE7E7;
+}
+.message-remind-success{
+    display: none;
+    font:bold 12px sans-serif;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: #D0E7AA;
+}
+
+#button-remind a{
+    margin-right: 10px;
+    cursor: pointer;
+    background: url(/images/button-grd.png) repeat-x;
+    font:bold 13px sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius:5px ; 
+}
+
+#button-remind a:hover{
+    background: url(/images/button-grd-hover.png) repeat-x;
+}
+#button-remind a:active{
+    background: url(/images/button-grd-active.png) repeat-x;
+}
+
+/*Блок юзера*/
+#block-user{
+    border: 1px solid #DBDBDB;
+    width: 140px;
+    height: 60px;
+    position: absolute;
+    z-index: 7;
+    margin-left: 860px;
+    margin-top: -3px;
+    background-color: white;
+    display: none;
+    box-shadow: 0 0 15px #DBDBDB;   
+}
+
+.corner2{
+    background: url(/images/bulleticon.png);
+    width: 19px;
+    height: 10px;
+    margin-top: -9px;
+    margin-left: 60px;
+}
+
+#block-user ul{
+    margin-top: 10px;
+}
+#block-user li{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+#block-user a{
+    text-decoration: none;
+    font:bold 13px sans-serif;
+    color: #57678C;
+}
+#block-user a:hover{
+    border-bottom: 1px dashed #EF662B;
+    color: #EF662B;
+    cursor: pointer;
+}
+#block-user img{
+    float: left;
+    margin-right: 8px;
+}
+
+
+/*Стили для профиля*/
+.title-h3{
+    font:bold 17px sans-serif;
+    color: #666666;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 5px;
+}
+
+#info-profile{
+ margin-top: 25px;
+}
+#info-profile  li{
+ margin-top: 10px;
+}
+#info-profile input{
+ height: 30px;
+ width: 350px;
+ font: 17px sans-serif;
+ margin-left: 200px; 
+ border-left: 1px solid #ABABAB;
+ border-top: 1px solid #ABABAB;
+ border-right: 1px solid #DDDDDD;
+ border-bottom: 1px solid #DDDDDD;
+ padding-left: 5px;
+}
+
+#info-profile input:focus,#info-profile textarea:focus{
+ border: 1px solid #C4E1EB;
+}
+
+#info-profile  textarea{
+ height: 110px;
+ width: 350px;
+ font: 17px sans-serif;
+ margin-left: 200px;
+ border-left: 1px solid #ABABAB;
+ border-top: 1px solid #ABABAB;
+ border-right: 1px solid #DDDDDD;
+ border-bottom: 1px solid #DDDDDD;
+}
+#info-profile  label{
+    font: 14px arial;
+    color: #464648;
+    position: absolute;
+    margin-top: 7px;
+}
+#form-error{
+    font:bold 14px sans-serif;
+    color: red;
+    background-color: #F7EDEF;
+    border: 1px solid #FAC8D3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#form-success{
+    font:bold 14px sans-serif;
+    color: black;
+    background-color: #D9FFCA;
+    border: 1px solid #B7E787;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/*Ошибка поиска*/
+#search_wrong{
+    font:bold 16px sans-serif;
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#error_cat{
+    font:bold 16px sans-serif;
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+/*Корзина шаги*/
+#block-step{
+    height: 70px;
+    width: auto;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#block-step > p{
+    font: 19px sans-serif;
+    color: #646464;
+    margin-top: 8px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+#block-step > a{
+    position: absolute;
+    border: 1px solid #D98386; 
+    font:bold 13px sans-serif;
+    padding-left: 7px;  
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 5px;
+    margin-left: 700px;
+    text-decoration: none;
+    color: white;
+    background-color: #DA2027;  
+    border-radius:5px;  
+}
+
+#name-step{
+    height: 30px;
+}
+
+#name-step li{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#name-step a{
+    color: blue;
+    font: bold 14px sans-serif;
+    text-decoration: none;
+}
+
+#name-step a.active{
+    color: red;
+    font: bold 14px sans-serif;
+    text-decoration: none;
+}
+
+/*Корзина список*/
+#header-list-cart{
+    height: 30px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#header-list-cart > div{
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+    text-align: center;
+    font: bold 13px sans-serif;
+    color: #6D6D6D;
+}
+
+#head1{width: 130px;}
+#head2{width: 400px;}
+#head3{width: 55px;}
+#head4{width: 140px;}
+
+/*Корзина 1 заказ товара*/
+.block-list-cart{
+    height: 130px;
+}
+
+.block-list-cart >div{
+    float: left;
+    margin-left: 5px;
+}
+
+.img-cart{
+    width: 130px;
+    height: 125px;
+}
+
+.title-cart{
+    width: 400px;
+    height: 125px;
+}
+
+.title-cart > p{
+    margin-top: 15px;
+}
+
+.input-count-style{
+    margin-top: 31px;
+}
+
+.input-count-style input{
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    width: 32px;
+    height: 22px;
+    font: 15px sans-serif;
+    border-radius: 5px;
+}
+
+.input-count-style p{
+    cursor: pointer;
+    font: 15px sans-serif;
+    margin: 1px;
+}
+
+.title-cart > p > a{
+    font: 15px sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+
+.title-cart > p > a:hover{
+    text-decoration: none;
+}
+
+.count-cart{
+    width: 55px;
+    height: 125px;
+}
+
+.price-product{
+    width: 140px;
+    height: 125px;
+}
+
+.delete-cart{
+    height: 125px;
+}
+
+.price-product p{
+    margin-left: 15px;
+    margin-top: 65px;
+    font: bold 18px sans-serif;
+}
+
+.price-product h5{
+    position: absolute;
+    font: bold 13px sans-serif;
+    margin-top: 42px;
+    margin-left: 15px;
+    color: #848484
+}
+
+.delete-cart img{
+    margin-top: 50px;
+}
+
+#bottom-cart-line{
+    background: url(/images/bottom-line.png);
+    height: 5px;
+    width: 790px;
+    margin: 0px auto;
+}
+
+.itog-price{
+    font: 20px sans-serif;
+}
+
+.itog-price > strong{
+    font:18px sans-serif;
+}
+
+.button-next > a{
+    border: 1px solid #B0C181;
+    font:15px sans-serif;
+    color: white;  
+    padding-left: 18px;  
+    padding-right: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-decoration: none;  
+    background: url(/images/grd-next.png);  
+    border-radius:6px;    
+}
+
+#clear-cart{
+    font: 22px sans-serif;
+    margin-top: 40px;
+}
+
+/* Корзина 2 из 3*/
+#info-radio > li > input{
+ margin-top: 7px;
+ margin-right: 7px;   
+}
+
+#info-radio > li{
+font:15px sans-serif;  
+}
+
+#info-order{
+ margin-top: 25px;
+}
+
+#info-order > li{
+ margin-top: 10px;
+}
+
+#info-order > li > input{
+ height: 30px;
+ width: 345px;
+ font: 17px sans-serif;
+ margin-left: 120px; 
+ border-left: 1px solid #ABABAB;
+ border-top: 1px solid #ABABAB;
+ border-right: 1px solid #DDDDDD;
+ border-bottom: 1px solid #DDDDDD;
+ padding-left: 5px;
+}
+
+#info-order > li > input:focus,#info-order > li > textarea:focus{
+ border: 1px solid #C4E1EB;
+}
+
+#info-order > li > textarea{
+ height: 110px;
+ width: 346px;
+ margin-left: 120px;
+ border-left: 1px solid #ABABAB;
+ border-top: 1px solid #ABABAB;
+ border-right: 1px solid #DDDDDD;
+ border-bottom: 1px solid #DDDDDD;
+}
+
+#info-order > li > label{
+    font: 14px arial;
+    color: #464648;
+    position: absolute;
+    margin-top: 7px;
+}
+
+#info-order > li > label.order_label_style{
+    margin-top: 0px;
+}
+
+#info-order > li > span{
+    font:italic 13px sans-serif;
+    color: #A7A7A7;
+    margin-left: 15px;
+    margin-top: -1px;
+    position: absolute;
+}
+
+#info-order > li > span.order_span_style{
+    margin-top: 7px;
+}
+
+#confirm-button-next{
+    background: url(/images/grd-next.png);
+    border: 1px solid #B0C181;
+    font:15px sans-serif;
+    color: white;    
+    border-radius:6px; 
+    padding-left: 18px;  
+    padding-right: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+/*Карзина 3 этап*/
+#list-info{
+    width: 807px;
+    height: 228px;
+    padding-top: 7px;
+    margin-top: 15px;
+    background: url(/images/boxshadow.png) no-repeat;
+}
+
+#list-info > li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font:18px sans-serif;
+    padding-left: 15px;
+}
+
+#list-info > li > strong{
+    font:bold 16px sans-serif;
+    margin-right: 10px;
+}
+
+#list-info_itog{
+    font: sans-serif;
+    margin-left: 15px;
+}
+
+/*вывод товара*/
+#block-breadcrumbs-and-rating{
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#nav-breadcrumbs{
+    margin-top: -5px;
+}
+
+#nav-breadcrumbs > a{
+    font: 15px sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+
+#nav-breadcrumbs > a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+#nav-breadcrumbs > span{
+    font: 14px sans-serif;
+    color: grey;
+}
+
+#block-content-info{
+    height: 320px;
+    margin-top: 15px;
+}
+
+#block-content-info img{
+    float: left;
+    margin-top: 0px;
+    margin-right: 15px;
+}
+
+#block-mini-description{
+    width: 600px;
+    float: left;
+}
+
+#content-title{
+    font: 19px sans-serif;
+    margin: 0px;
+}
+
+#content-text{
+    font: 15px sans-serif;
+    margin-top: 10px;
+}
+
+.reviews-and-counts-content{
+    height: 20px;
+    margin-top: 10px;
+}
+.reviews-and-counts-content > li{
+    float: left;
+    margin-left: 10px;    
+    margin-top: 3px;
+}
+.reviews-and-counts-content > li > p{
+    margin-left: 25px;
+    margin-top: -1px;
+    font: 13px sans-serif;
+    margin-bottom: 0px;
+}
+.reviews-and-counts-content img{
+    position: absolute;
+}
+
+#style-price{
+    font: 23px sans-serif;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#add-cart-view{
+    width: 88px;
+    height: 27px;
+    display: block;
+    cursor: pointer;
+    background: url(../images/button-buy-norm.png) no-repeat;
+}
+#add-cart-view:hover{
+    background: url(../images/button-buy-active.png) no-repeat;
+}
+#add-cart-view:active{
+    background: url(../images/button-buy-click.png) no-repeat;
+}
+
+/*Просмотр миниатюр*/
+
+#block-img-slide{
+    margin-top: 30px;
+    height: 85px;
+    width: auto;
+}
+#block-img-slide li{
+    padding: 3px;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #DBDBDB;
+    cursor: pointer;
+}
+#block-img-slide li:hover{
+    border: 1px solid black;
+}
+#block-img-slide a{
+    height: 73px;
+    display: block;
+}
+
+
+/*Плагин Jtab Вывод отзывов и т.д*/
+ul.tabs { margin-top: 15px; list-style:none; width:100%; height: 31px; border-bottom: 1px solid #E2E2E2;}
+ul.tabs li:first-child {border-left:1px solid #E2E2E2;}
+ul.tabs li {float:left; border-right:1px solid #E2E2E2; border-top:1px solid #E2E2E2; background-color:#eee;}
+ul.tabs li.active {border-bottom:1px solid #fff; background-color:#fff; margin-bottom:-1px;}
+ul.tabs li a {display:block; padding:7px 10px; color:#777;  outline:none; text-decoration:none; font:bold 14px sans-serif;}
+ul.tabs li.active a { color:#000;}
+
+div.tabs_content {width:100%;}
+div.tabs_content > div {padding:10px;}
+
+.tabs_content div{
+    font: 15px sans-serif;
+    margin-top: 5px;
+}
+
+/* Блок отзывов*/
+#link-send-review a{
+    margin-left: 15px;
+    text-decoration: none;
+    font: bold 13px sans-serif;
+    color: orange;
+}
+
+#link-send-review a:hover{
+    color: red;
+}
+
+.block-reviews{
+    border-bottom: 1px solid #B0C181;
+    margin-top: 20px;
+}
+.block-reviews img{
+    float: left;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+.block-reviews{    
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.author-date{
+    font: 14px sans-serif;
+    margin-top: 25px;
+    margin-left: 0px;
+    color: #57678C;
+        
+}
+
+.textrev{
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-right: 100px;
+    font:  14px sans-serif;
+}
+
+.text-comment{
+     font: 15px sans-serif;
+}
+
+.title-no-info{
+    font: bold 18px sans-serif;
+    margin-left: 15px;
+}
+
+/*Отправить или написать отзыв*/
+#send-review{
+    display: none;
+    width: 400px;
+    height: 450px;
+}
+
+#title-review{
+    font: 14px sans-serif;
+    margin-right: 50px;
+    color: #8C8C8C;
+}
+#send-review input{
+    width: 234px;
+    height: 25px;
+    margin-right: 50px;
+    margin-top: 15px;
+    border: 1px solid #DBDBDB;
+}
+#send-review textarea{
+    width: 230px;
+    height: 70px;
+    margin-right: 50px;
+    border: 1px solid #DBDBDB;
+}
+#label-name{
+    font: 14px sans-serif;
+    margin-right: 10px;
+}
+#label-good{
+    position: absolute;
+    font: 14px sans-serif;
+    margin-left: -100px;
+}
+#label-bad{
+    position: absolute;
+    font: 14px sans-serif;
+    margin-left: -93px;    
+}
+#label-comment{
+    position: absolute;
+    font: 14px sans-serif; 
+    margin-left: -106px;     
+}
+#reload-img{
+    display: none;
+    margin-top: 35px;
+    margin-left: 295px;
+}
+#button-send-review{
+    cursor: pointer;
+    background: url(../images/button-send.png) no-repeat;
+    width: 81px;
+    height: 31px;
+    margin-top: 25px;
+    margin-left: 270px;
+}
+#button-send-review:active{
+    background: url(../images/button-send-active.png) no-repeat;
+}
+
+/*Блок с лайками)))*/
+#block-like{
+    width: 150px;
+    margin-top: -10px;
+}
+#likegood{
+    float: left;
+    cursor: pointer;
+    border: 1px solid #C5C5C5;
+    background-color: #EEEEEE;
+    padding: 3px 4px;
+    font: 13px sans-serif;
+    margin: 0;
+}
+#likegood:hover{
+    background-color: #F2F2F2;
+}
+#likegoodcount{
+    margin: 4px 8px;
+    font: 13px sans-serif;
+    display: inline-block;
+}
+
+/*Блок рандомных товаров*/
+#block-random-tovar{
+    height: 150px;
+    padding-top: 15px;
+    clear: both;
+}
+#block-random-tovar li{
+   float: left;
+   width: 250px;
+   height: 150px;
+   margin-left: 5px;
+}
+#block-random-tovar img{
+   float: left;
+   margin-right: 8px;
+}
+.random-title{
+    font: 15px sans-serif;
+    color: #276FC8;
+}
+.random-title:hover{
+    text-decoration: none;
+}
+.random-reviews{
+    font: 13px sans-serif;
+    color: #434343;
+    margin: 5px 0;
+}
+.random-price{
+    margin:0px;
+    font: bold 18px sans-serif;   
+}
+.random-add-cart{
+    width: 87px;
+    height: 26px;
+    margin-top: 10px;
+    margin-right: 0px;
+    cursor: pointer;
+    background: url(/images/button-pay.png);
+    float: left;
+}
+
+.random-add-cart:hover{
+    background: url(/images/button-pay-hover.png);
+    
+}
+
+/*Форма обратной связи*/
+#block-feedback{
+    height: 450px;
+}
+#feedback-p{
+    margin-left: 330px;
+    font: 18px sans-serif;
+    color: grey;
+}
+#feedback{
+    margin-top: 50px;
+}
+#feedback li{
+    margin-top: 10px;
+}
+#feedback input{
+    height: 30px;
+    width: 300px;
+    font: 17px sans-serif;
+    margin-left: 200px; 
+    border-left: 1px solid #ABABAB;
+    border-top: 1px solid #ABABAB;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding-left: 5px;    
+}
+#feedback label{
+    font: 14px arial;
+    color: #464648;
+    position: absolute;
+    margin-top: 7px;
+}
+#feedback textarea{
+    height: 180px;
+    width: 450px;
+    font: 17px sans-serif;
+    margin-left: 200px;
+    border-left: 1px solid #ABABAB;
+    border-top: 1px solid #ABABAB;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+#feedback input:focus,#feedback textarea:focus{
+    border: 1px solid #C4E1EB;
+}
+/*Страница запрета*/
+#forbidden-img{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+#forbidden-p{
+    margin-top: 0px;
+    margin-left: 315px;
+    font: bold 20px sans-serif;
+}
+
+#top-logo{
+    height: 30px;
+    width: 800px;
+    margin-top: 10px;
+}
+#top-logo li{
+    float: left;
+    margin-left: 10px;
+}
+#top-logo a{
+    margin-top: 0px;
+    text-decoration: none;
+    font: 14px sans-serif;
+}
+#top-logo a:hover{
+    color: red;  
+}
+#top-logo img{
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
+#Availability_yes{
+    font: 17px sans-serif;
+}
+#Availability_yes strong{
+    color: green;
+    font: 17px sans-serif;
+}
+#Availability_no{
+    font: 17px sans-serif;
+}
+#Availability_no strong{
+    color: red;
+    font: 17px sans-serif;
+}
